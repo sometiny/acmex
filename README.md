@@ -14,6 +14,7 @@ sudo ./acmex --install-as [服务名称]
 
 * 内置 `Let's encrypt`/`Google`/`ZeroSSL` 接口。
 * 内置 `阿里云`/`腾讯云`/`Cloudflare` DNS解析接口。
+* 支持 自定义 DNS解析接口。
 * 可纯前端生成CSR和私钥，降低私钥在网络上暴露的风险。
 * 支持Socks5代理设置。
-* Google和ZeroSSL需要绑定EAB信息。[Google EAB指引](https://wos.cc/document/google-ssl.html)
+* Google和ZeroSSL需要绑定EAB信息。[EAB指引](https://bkssl.com/document/acmev2-eab.html)
