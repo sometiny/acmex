@@ -1,12 +1,16 @@
+
+### 带webui的ACMEv2客户端
+
+
 ```bash
 #1、启动为控制台项目
-sudo ./acmex --runas console
+./acmex --runas console
 
 #使用-q参数，监听随机端口快速启动服务
-sudo ./acmex --runas console -q
+./acmex --runas console -q
 
 #2、安装为系统服务
-sudo ./acmex --install-as [服务名称]
+./acmex --install-as [服务名称]
 ```
 首次运行需要设置管理面板监听地址（未提供-q参数时会要求提供监听地址）。
 
