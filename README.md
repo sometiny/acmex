@@ -1,7 +1,7 @@
 
 ### 带webui的ACMEv2客户端
 
-项目地址：[https://github.com/cook-code-jazor/acmex](https://github.com/cook-code-jazor/acmex)
+项目地址：[https://github.com/sometiny/acmex](https://github.com/sometiny/acmex)
 
 ```bash
 #1、启动为控制台项目
