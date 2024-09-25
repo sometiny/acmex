@@ -25,4 +25,5 @@
 * 支持 自定义 DNS解析接口。
 * 可纯前端生成CSR和私钥，降低私钥在网络上暴露的风险。
 * 支持Socks5代理设置。
+* 支持证书申请结果回调。
 * Google和ZeroSSL需要绑定EAB信息。[EAB指引](https://bkssl.com/document/acmev2-eab.html)
