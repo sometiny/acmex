@@ -27,3 +27,4 @@
 * 支持Socks5代理设置。
 * 支持证书申请结果回调。
 * Google和ZeroSSL需要绑定EAB信息。[EAB指引](https://bkssl.com/document/acmev2-eab.html)
+* 支持一键部署(FTP/SSH/宝塔)
