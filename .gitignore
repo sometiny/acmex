@@ -2,3 +2,11 @@
 /win-x64/work_directory
 /win-x64/config.json
 /win-x64/app.conf
+/linux-arm64
+/linux-musl-arm64
+/linux-musl-x64
+/linux-x64
+/osx-arm64
+/osx-x64
+/win-arm64
+/win-x64
