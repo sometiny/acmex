@@ -1,5 +1,5 @@
 
-### 带webui的ACMEv2客户端
+### 带webui的免费SSL证书管理工具
 
 项目地址：[https://github.com/sometiny/acmex](https://github.com/sometiny/acmex)
 
