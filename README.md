@@ -1,24 +1,23 @@
-
 ## 基于ACMEv2的免费SSL证书管理系统
-
 
 ### 一、功能
 * webui管理
-* 内置 `Let's encrypt`/`Google`/`ZeroSSL`/`BuyPass`/`SSL.COM` 接口，Google、ZeroSSL和SSL.COM需要绑定EAB信息。[EAB指引](https://bkssl.com/document/acmev2-eab.html)。
-* 内置 `阿里云`/`腾讯云`/`Cloudflare`/`DNS.COM`/`DNS.LA`/`百度云` DNS解析接口。
+* 支持 `Let's encrypt`/`Google`/`ZeroSSL`/`BuyPass`/`SSL.COM` 接口，Google、ZeroSSL和SSL.COM需要绑定EAB信息。[EAB指引](https://bkssl.com/document/acmev2-eab.html)。
+* 支持 `阿里云`/`腾讯云`/`Cloudflare`/`DNS.COM`/`DNS.LA`/`百度云` DNS解析接口。
 * 支持自定义DNS解析接口。
 * 支持一键部署(本地/FTP/SSH/宝塔/IIS)
 * 可纯前端生成CSR和私钥，降低私钥在网络上暴露的风险。
 * 支持Socks5代理设置。
 * 支持证书申请结果回调，可自行部署证书。
-* 支持windows/osx/linux运行
-* 支持docker容器运行
-* 支持以系统服务运行
-* 支持远程目录列出
-* 支持域名有效性验证
-* 支持对DNS-01和HTTP-01的预验证
-* 支持一键导入宝塔站点
-* 支持DNS-01验证的CNAME模式
+* 支持windows/osx/linux运行。
+* 支持docker容器运行。
+* 支持以系统服务运行。
+* 支持远程目录列出。
+* 支持域名有效性验证。
+* 支持对DNS-01和HTTP-01的预验证。
+* 支持一键导入宝塔站点。
+* 支持DNS-01验证的CNAME模式。
+* 支持自动续期。
 
 ### 二、运行
 
