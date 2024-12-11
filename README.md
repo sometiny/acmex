@@ -1,6 +1,6 @@
 ## 基于ACMEv2的免费SSL证书管理系统
 
-### 一、功能
+### 一、支持功能
 * webui管理
 * 支持 `Let's encrypt`/`Google`/`ZeroSSL`/`BuyPass`/`SSL.COM` 接口，Google、ZeroSSL和SSL.COM需要绑定EAB信息。[EAB指引](https://bkssl.com/document/acmev2-eab.html)。
 * 支持 `阿里云`/`腾讯云`/`Cloudflare`/`DNS.COM`/`DNS.LA`/`百度云` DNS解析接口。
@@ -19,7 +19,7 @@
 * 支持DNS-01验证的CNAME模式并对CNAME进行预验证。
 * 支持自动续期。
 
-### 二、运行
+### 二、安装运行
 
 #### 1、下载
 从[https://github.com/sometiny/acmex/releases](https://github.com/sometiny/acmex/releases)下载最新的release：acmex.zip
