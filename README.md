@@ -58,19 +58,23 @@
 将发行版包目录下的linux-musl-x64发行版acmex复制到本地系统，例如：`/home/acmex/linux-musl-x64/acmex`。
 
 #### 设置acmex
+使用alpine运行docker，设置acmex初始参数。
+
+映射发行版所在目录到容器的/home/acmex目录。
+
+设置完成后容器自动删除。
 ```bash
-#使用alpine运行docker，设置acmex初始参数
-#映射发行版所在目录到容器的/home/acmex目录
-#设置完成后容器自动删除
 docker run -it --rm -e "WITH_DOCKER=yes" -v /home/acmex/linux-musl-x64:/home/acmex alpine /home/acmex/acmex setup --listen-at 0.0.0.0:80
 ```
 
 #### 启动acmex
+
+设置端口映射：127.0.0.1:1084 => 容器的80端口。
+
+设置自动重启，内存限制512m。
+
+使用--runas console启动acmex。
 ```bash
-#启动docker
-#设置端口映射：127.0.0.1:1084 => 容器的80端口
-#设置自动重启，内存限制512m
-#使用--runas console启动acmex
 docker run -id --name alpine-acmex --restart always -m 512m -p 127.0.0.1:1084:80 -v /home/acmex/linux-musl-x64:/home/acmex alpine /home/acmex/acmex --runas console
 ```
 Docker启动后，浏览器访问 `http://127.0.0.1:1084` 即可打开管理面板。
