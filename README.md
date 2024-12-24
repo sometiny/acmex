@@ -53,7 +53,7 @@
 具体访问地址根据setup时设置的监听地址有关。
 
 #### 5、使用docker安装和运行
-以`alpine`为例。
+以`alpine`为例，使用alpine镜像运行acmex。
 
 将发行版包目录下的linux-musl-x64发行版acmex复制到本地系统，例如：`/home/acmex/linux-musl-x64/acmex`。
 
