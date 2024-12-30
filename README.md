@@ -1,7 +1,8 @@
 ## 基于ACMEv2的免费SSL证书管理系统
 
 ### 一、支持功能
-* webui管理
+* 私有部署，私密信息加密保存在自己设备。
+* webui管理。
 * 支持 `Let's encrypt`/`Google`/`ZeroSSL`/`BuyPass`/`SSL.COM` 接口，Google、ZeroSSL和SSL.COM需要绑定EAB信息。[EAB指引](https://bkssl.com/document/acmev2-eab.html)。
 * 支持 `阿里云`/`腾讯云`/`Cloudflare`/`DNS.COM`/`DNS.LA`/`百度云` DNS解析接口。
 * 支持自定义DNS解析接口。
@@ -22,9 +23,11 @@
 ### 二、安装运行
 
 #### 1、下载
-从[https://github.com/sometiny/acmex/releases](https://github.com/sometiny/acmex/releases)下载最新的release
+从[https://github.com/sometiny/acmex/releases/latest](https://github.com/sometiny/acmex/releases/latest)下载最新的release。
 
-#### 2、根据系统发行版选择合适的二进制文件
+根据系统发行版选择合适的二进制文件压缩包。
+
+#### 2、设置
 运行命令，设置webui管理地址。
 
 ```bash
