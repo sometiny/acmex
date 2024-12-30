@@ -22,7 +22,7 @@
 ### 二、安装运行
 
 #### 1、下载
-从[https://github.com/sometiny/acmex/releases](https://github.com/sometiny/acmex/releases)下载最新的release：acmex.zip
+从[https://github.com/sometiny/acmex/releases](https://github.com/sometiny/acmex/releases)下载最新的release
 
 #### 2、根据系统发行版选择合适的二进制文件
 运行命令，设置webui管理地址。
@@ -55,7 +55,7 @@
 #### 5、使用docker安装和运行
 以`alpine`为例，使用alpine镜像运行acmex。
 
-将发行版包目录下的linux-musl-x64发行版acmex复制到本地系统，例如：`/home/acmex/linux-musl-x64/acmex`。
+将发行版下的linux-musl-x64发行版acmex复制到本地系统，例如：`/home/acmex/linux-musl-x64/acmex`。
 
 #### 设置acmex
 使用alpine运行docker，设置acmex初始参数。
