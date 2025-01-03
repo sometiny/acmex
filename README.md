@@ -24,9 +24,8 @@
 ### 二、安装运行
 
 #### 1、下载
-从[https://github.com/sometiny/acmex/releases/latest](https://github.com/sometiny/acmex/releases/latest)下载最新的release。
+从[https://github.com/sometiny/acmex/releases/latest](https://github.com/sometiny/acmex/releases/latest)选择下载合适的release。
 
-根据系统发行版选择合适的二进制文件压缩包。
 
 #### 2、设置
 运行命令，设置webui管理地址。
@@ -59,7 +58,7 @@
 #### 5、使用docker安装和运行
 以`alpine`为例，使用alpine镜像运行acmex。
 
-将发行版下的linux-musl-x64发行版acmex复制到本地系统，例如：`/home/acmex/linux-musl-x64/acmex`。
+从`https://github.com/sometiny/acmex/releases/latest`下载`acmex-linux-musl-x64.zip`，解压后将acmex复制到本地系统，例如：`/home/acmex/linux-musl-x64/acmex`。
 
 #### 设置acmex
 使用alpine运行docker，设置acmex初始参数。
@@ -68,7 +67,11 @@
 
 设置完成后容器自动删除。
 ```bash
-docker run -it --rm -e "WITH_DOCKER=yes" -v /home/acmex/linux-musl-x64:/home/acmex alpine /home/acmex/acmex setup --listen-at 0.0.0.0:80
+docker run -it --rm \
+-e "WITH_DOCKER=yes" \
+-v /home/acmex/linux-musl-x64:/home/acmex \
+alpine \
+/home/acmex/acmex setup --listen-at 0.0.0.0:80
 ```
 
 #### 启动acmex
@@ -79,7 +82,11 @@ docker run -it --rm -e "WITH_DOCKER=yes" -v /home/acmex/linux-musl-x64:/home/acm
 
 使用--runas console启动acmex。
 ```bash
-docker run -id --name alpine-acmex --restart always -m 512m -p 127.0.0.1:1084:80 -v /home/acmex/linux-musl-x64:/home/acmex alpine /home/acmex/acmex --runas console
+docker run -id --name alpine-acmex --restart always -m 512m \
+-p 127.0.0.1:1084:80 \
+-v /home/acmex/linux-musl-x64:/home/acmex \
+alpine \
+/home/acmex/acmex --runas console
 ```
 Docker启动后，浏览器访问 `http://127.0.0.1:1084` 即可打开管理面板。
 
