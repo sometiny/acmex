@@ -60,7 +60,7 @@
 
 从`https://github.com/sometiny/acmex/releases/latest`下载`acmex-linux-musl-x64.zip`，解压后将acmex复制到本地系统，例如：`/home/acmex/linux-musl-x64/acmex`。
 
-#### 设置acmex
+##### 设置acmex
 使用alpine运行docker，设置acmex初始参数。
 
 映射发行版所在目录到容器的/home/acmex目录。
@@ -74,7 +74,7 @@ alpine \
 /home/acmex/acmex setup --listen-at 0.0.0.0:80
 ```
 
-#### 启动acmex
+##### 启动acmex
 
 设置端口映射：127.0.0.1:1084 => 容器的80端口。
 
