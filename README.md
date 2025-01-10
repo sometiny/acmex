@@ -3,24 +3,25 @@
 
 ### 一、支持功能
 * webui管理。
-* 支持 `Let's encrypt`/`Google`/`ZeroSSL`/`BuyPass`/`SSL.COM` 接口，Google、ZeroSSL和SSL.COM需要绑定EAB信息。[EAB指引](https://bkssl.com/document/acmev2-eab.html)。
-* 支持 `阿里云`/`腾讯云`/`Cloudflare`/`DNS.COM`/`DNS.LA`/`百度云` DNS解析接口。
-* 支持自定义DNS解析接口。
-* 支持一键部署(本地/FTP/SSH/宝塔/IIS)
+* `Let's encrypt`/`Google`/`ZeroSSL`/`BuyPass`/`SSL.COM` 接口，Google、ZeroSSL和SSL.COM需要绑定EAB信息。[EAB指引](https://bkssl.com/document/acmev2-eab.html)。
+* `阿里云`/`腾讯云`/`Cloudflare`/`DNS.COM`/`DNS.LA`/`百度云` DNS解析接口。
+* 自定义DNS解析接口。
+* SSL证书一键部署(本地/FTP/SSH/宝塔/IIS)
+* SSL证书多目标部署
 * 可纯前端生成CSR和私钥，降低私钥在网络上暴露的风险。
 * 支持Socks5代理设置。
 * 支持证书申请结果回调，可自行部署证书。
-* 支持windows/osx/linux运行。
-* 支持docker容器运行。
-* 支持以系统服务运行。
-* 支持远程目录列出。
-* 支持域名有效性验证。
-* 支持对DNS-01和HTTP-01的预验证。
-* 支持一键导入宝塔站点。
-* 支持DNS-01验证的CNAME模式并对CNAME进行预验证。
-* 支持自动续期。
-* 支持自定义ACME服务商。
-* 支持邮件通知。
+* windows/osx/linux多平台部署。
+* docker容器运行。
+* 系统服务运行。
+* 远程目录列出(本地/FTP/SSH/宝塔/IIS)。
+* 域名有效性验证。
+* 对DNS-01和HTTP-01的预验证。
+* 一键导入宝塔站点。
+* DNS-01验证的CNAME模式并对CNAME进行预验证。
+* 自动续期。
+* 自定义ACME服务商。
+* 邮件通知。
 
 ### 二、安装运行
 
