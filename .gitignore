@@ -10,3 +10,5 @@
 /osx-x64
 /win-arm64
 /win-x64
+/compress.ps1
+/.DS_Store
